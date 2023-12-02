@@ -5,24 +5,31 @@
 - [Copy for the Website](https://docs.google.com/document/d/1n4CsU_zjygnxUC6FBco96-yg7KaoAC4hd_7V2SCCKEw/edit?usp=sharing)
 - [Flyer Copy](https://drive.google.com/file/d/1LfIt309HbYtc70-oEOlXvrfVBPqVEpzF/view?usp=sharing)
 
+## TODO
+- [x] update contact emails and contact section
+- [x] update call to action/donation options
+- [x] remove all but about us and services sections of main page
+- [x] update with copy from the flyer
+- [x] update the links in the header, nav, footer with the correct page/headers
+- [ ] get page live on githubpages
+- [ ] get feedback from team
+- [ ] get page live on godaddy
+- [ ] create template page(s) for the sub-pages
+    - [ ] animal shelters
+    - [ ] rescues
+    - [ ] animal rights (need content)
+    - [ ] spay/neuter
+- [ ] update with the copy editing from brendan
+- [ ] build the back-end DB
+- [ ] build account creation page/sign in
+- [ ] build input page for entering new animals in need
+- [ ] build photos page showing animals in need
+- [ ] have volunteer buttons to volunteer for board, foster, donate, transport etc
+
 ## Technical Decisions
 - Bootstrap for front end design
 - Python/Flask back end
 - SQLAcademy SQLite Database
-
-## TODO
-[x] update contact emails and contact section
-[] update call to action/donation options
-[] remove all but about us and services sections of main page
-[] update with copy from the flyer
-[] create a template page for the sub-pages
-    [] animal shelters
-    [] rescues
-    [] animal rights
-    [] spay/neuter
-[] update with the copy editing from brendan
-[] make the nav bar links that aren't in use hidden or "coming soon"
-[] tart to build the back-end, pull in dog photos from shelters
 
 ### Built Based on Bootstrap Template
 Template Name: Anyar
