@@ -1557,7 +1557,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact {
-  background: url("../img/contact-bg.png") left center no-repeat;
+  /* background: url("../img/contact-bg.png") left center no-repeat; */
   position: relative;
 }
 

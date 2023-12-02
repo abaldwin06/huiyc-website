@@ -11,16 +11,18 @@
 - SQLAcademy SQLite Database
 
 ## TODO
-- remove all but about us and services sections of main page
-- update with copy from the flyer
-- create a template page for the sub-pages
-    - animal shelters
-    - rescues
-    - animal rights
-    - spay/neuter
-- update with the copy editing from brendan
-- make the nav bar links that aren't in use hidden or "coming soon"
-- start to build the back-end, pull in dog photos from shelters
+[x] update contact emails and contact section
+[] update call to action/donation options
+[] remove all but about us and services sections of main page
+[] update with copy from the flyer
+[] create a template page for the sub-pages
+    [] animal shelters
+    [] rescues
+    [] animal rights
+    [] spay/neuter
+[] update with the copy editing from brendan
+[] make the nav bar links that aren't in use hidden or "coming soon"
+[] tart to build the back-end, pull in dog photos from shelters
 
 ### Built Based on Bootstrap Template
 Template Name: Anyar
