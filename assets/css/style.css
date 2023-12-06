@@ -478,7 +478,7 @@ h6 {
   height: 80vh;
   overflow: hidden;
   position: relative;
-  background: #1c6094;
+  background: linear-gradient(rgba(5, 74, 133, 0.8), rgba(5, 74, 133, 0.9));
   background-size: cover;
   position: relative;
   margin-bottom: -90px;
@@ -616,9 +616,21 @@ section {
 # Icon Boxes
 --------------------------------------------------------------*/
 .icon-boxes {
-  padding-top: 0;
+  padding-top: 30px;
   position: relative;
   z-index: 100;
+  background: linear-gradient(rgba(5, 74, 133, 0.8), rgba(5, 74, 133, 0.9));
+  background-size: cover;
+}
+
+.icon-boxes h2 {
+  color: #fff;
+  text-transform: none;
+}
+
+.icon-boxes p {
+  color: #fff;
+  padding-bottom: 30px
 }
 
 .icon-boxes .icon-box {
@@ -725,10 +737,10 @@ section {
   border-radius: 5px;
   transition: 0.3s;
   line-height: 1;
-  color: #0880e8;
+  color: #444444;
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid #0880e8;
+  border: 2px solid #f6b024;
 }
 
 .about .content .btn-learn-more:hover {
@@ -737,11 +749,11 @@ section {
   text-decoration: none;
 }
 
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
   .about {
     padding: 60px 0;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Clients
@@ -1057,19 +1069,22 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(5, 74, 133, 0.8), rgba(5, 74, 133, 0.9));
+  background-color: #fff;
   background-size: cover;
   padding: 120px 0;
 }
 
-.cta h3 {
-  color: #fff;
-  font-size: 28px;
-  font-weight: 700;
+.cta h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #054a85;
 }
 
 .cta p {
-  color: #fff;
+  color: #444444
 }
 
 .cta .cta-btn {
@@ -1085,7 +1100,8 @@ section {
   margin: 10px;
   border-radius: 50px;
   border: 2px solid #f6b024;
-  color: #fff;
+  /* color: #fff; */
+  color: #444444;
 }
 
 .cta .cta-btn:hover {
@@ -1558,12 +1574,16 @@ section {
 --------------------------------------------------------------*/
 .contact {
   /* background: url("../img/contact-bg.png") left center no-repeat; */
+  background: linear-gradient(rgba(5, 74, 133, 0.8), rgba(5, 74, 133, 0.9));
   position: relative;
 }
-
+.contact h2 {
+  color: #fff;
+  text-transform: none;
+}
 .contact:before {
   content: "";
-  background: rgba(255, 255, 255, 0.7);
+  /* background: rgba(255, 255, 255, 0.7); */
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1581,8 +1601,10 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  background: #0880e8;
-  color: #fff;
+  /* background: #0880e8;
+  color: #fff; */
+  color: #0880e8;
+  background: #fff;
   float: left;
   width: 44px;
   height: 44px;
@@ -1598,14 +1620,16 @@ section {
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 5px;
-  color: #043c6d;
+  /* color: #043c6d; */
+  color: #fff;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #444444;
+  /* color: #444444; */
+  color: #ffffffe6;
 }
 
 .contact .info .email,
@@ -1615,7 +1639,8 @@ section {
 
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
+  /* background: #fff; */
+  background-color: linear-gradient(rgba(5, 74, 133, 0.8), rgba(5, 74, 133, 0.9));;
 }
 
 .contact .php-email-form .form-group {
@@ -1679,18 +1704,27 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  border: 0;
-  padding: 10px 32px;
-  color: #0880e8;
-  transition: 0.4s;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
   border-radius: 50px;
-  border: 2px solid #0880e8;
-  background: #fff;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: #444444;
+  animation-delay: 0.8s;
+  border: 2px solid #f6b024;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #0880e8;
+  /* background: #0880e8;
+  color: #fff; */
+  background: #f6b024;
   color: #fff;
+  text-decoration: none;
 }
 
 @keyframes animate-loading {
@@ -2250,7 +2284,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #05579e;
+  background: linear-gradient(rgba(5, 74, 133, 0.8), rgba(5, 74, 133, 0.9));;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -2304,7 +2338,7 @@ section {
 }
 
 #footer .footer-top {
-  background: #065fad;
+  background: #fff;
   padding: 60px 0 30px 0;
 }
 
@@ -2325,7 +2359,7 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
-  color: #fff;
+  color: rgba(5, 74, 133, 0.8);
 }
 
 #footer .footer-top .social-links a {
@@ -2352,7 +2386,7 @@ section {
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #fff;
+  color: rgba(5, 74, 133);
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
@@ -2386,7 +2420,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(5, 74, 133, 0.8);
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -2402,6 +2436,7 @@ section {
 
 #footer .footer-top .footer-contact p {
   line-height: 26px;
+  color: rgba(5, 74, 133, 0.8);
 }
 
 #footer .copyright {
@@ -2417,5 +2452,5 @@ section {
 }
 
 #footer .credits a {
-  color: #f6b024;
+  color: #fff;
 }

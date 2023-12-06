@@ -13,7 +13,9 @@
 - [x] update the links in the header, nav, footer with the correct page/headers
 - [x] get page live on githubpages
 - [x] get feedback from team
-- [ ] add tax id, rearrange/unlink resources, transparent logo, remove bg image, fix copy, slow carousel
+- [x] add tax id, transparent logo, remove bg image, fix copy, slow carousel, 
+- [x] restyle color for new arrangement
+- [ ] fix contact me form
 - [ ] get page live on godaddy
 - [ ] add zelle, paypal links
 - [ ] add images
