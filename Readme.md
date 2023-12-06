@@ -11,9 +11,12 @@
 - [x] remove all but about us and services sections of main page
 - [x] update with copy from the flyer
 - [x] update the links in the header, nav, footer with the correct page/headers
-- [ ] get page live on githubpages
-- [ ] get feedback from team
+- [x] get page live on githubpages
+- [x] get feedback from team
+- [ ] add tax id, rearrange/unlink resources, transparent logo, remove bg image, fix copy, slow carousel
 - [ ] get page live on godaddy
+- [ ] add zelle, paypal links
+- [ ] add images
 - [ ] create template page(s) for the sub-pages
     - [ ] animal shelters
     - [ ] rescues
