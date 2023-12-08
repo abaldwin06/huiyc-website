@@ -1,0 +1,8 @@
+---
+deployment:
+ tasks:
+ - export DEPLOYPATH=/home/bsck3uydbzce/public_html/
+ - /bin/cp index.html $DEPLOYPATH
+ - /bin/cp -R assets $DEPLOYPATH
+ - /bin/cp -R images $DEPLOYPATH
+ - /bin/cp -R forms $DEPLOYPATH
